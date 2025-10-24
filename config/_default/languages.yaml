@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            payetoninfluence
+          value: >-
+            https://instagram.com/payetoninfluence
+        linkedin:
+          label: >-
+            paye-ton-influence
+          value: >-
+            https://www.linkedin.com/company/paye-ton-influence/
 
   taxonomies:
     administrator: administrators
