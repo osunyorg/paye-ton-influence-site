@@ -22,4 +22,9 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
+- title: Nous soutenir
+  target: https://fr.tipeee.com/paye-ton-influence/
+  kind: url
+  new_tab: true
+  children: []
 
