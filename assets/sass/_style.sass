@@ -1,11 +1,18 @@
-.block-projects
-    &--large
-        .project
-            .media img
-                aspect-ratio: 1
+header#document-header
+    &.is-sticky
+        .logo img
+            filter: invert(1)
+            @include media-breakpoint-up(desktop)
+                height: 60px
 
 .hero
     --color-text-alt: #{rgba(255, 255, 255, 0.3)}
     --btn-color: var(--color-background)
     --color-border: var(--color-text-alt)
     --btn-border: 1px solid var(--color-border)
+
+.block-projects
+    &--large
+        .project
+            .media img
+                aspect-ratio: 1
