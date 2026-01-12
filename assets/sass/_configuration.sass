@@ -1,20 +1,26 @@
-$color-text: #FFFFFF
-$color-accent: #FFFFFF
-$color-text-alt: #CCCCCC
-$color-background: #000000
-$color-background-alt: #282828
-$color-border: rgba(255, 255, 255, 0.3)
+// $color-text: #FFFFFF
+$color-accent: #000000
+// $color-text-alt: #CCCCCC
+// $color-background: #000000
+// $color-background-alt: #282828
+// $color-border: rgba(255, 255, 255, 0.3)
 
-$heading-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
-$body-font-family: $heading-font-family
+$heading-font-family: "Sligoil", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+$body-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
-$header-background: transparent
+$header-background: #000000
 $header-border-bottom-width: 0
-$search-button-header-text: true
 $header-logo-height-desktop: pxToRem(100)
+$header-color: var(--color-background)
+$search-button-header-text: true
 
-$hero-background-color: none
+$hero-background-color: $color-accent
+$hero-color: var(--color-background)
 
-$footer-background-color: transparent
-
+$footer-background-color: #000000
+$footer-color: var(--color-background)
 $footer-logo-height-desktop: pxToRem(80)
+
+// typo
+$meta-font-family: $body-font-family
+$btn-font-family: $body-font-family
