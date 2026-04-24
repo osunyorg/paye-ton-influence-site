@@ -13,24 +13,3 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
-
-[[redirects]]
-from = "/organisations/categories/problematique/"
-to = "/organisations/categories/reputation/problematique/"
-
-[[redirects]]
-from = "/projets/2025-charte-ethique-de-linfluence-responsable/"
-to = "/projets/2022-charte-ethique-de-linfluence-responsable/"
-
-[[redirects]]
-from = "/organisations/categories/marque/problematique/"
-to = "/organisations/categories/reputation/problematique/"
-
-[[redirects]]
-from = "/organisations/categories/marque/"
-to = "/organisations/categories/reputation/"
-
-[[redirects]]
-from = "/projets/2025-project-1/"
-to = "/projets/2022-charte-ethique-de-linfluence-responsable/"
-
